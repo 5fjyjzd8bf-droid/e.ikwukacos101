@@ -12,5 +12,5 @@ fn main() {
     println!("the division on 56.7 by 32.2 is {}",quotient );
 
     let remainder:i32 =43%5;
-    print!("the remainder of 43 and 5 is {}",remainder );
+    print!("the remainder when 43 is divided by 5 is {}",remainder );
 }
