@@ -1,10 +1,12 @@
 fn main() {
-    let result = 10;
-    let age:u32= 20;
-    let sum:i32= 5-15;
+    let school_string ="School of Science and Technology";
+    let rating_float = 5.0;
+    let is_growing_boolean = true ;
+    let department_integer =3 ;
 
 
-    println!("Result value is {}",result);
-    println!("Age is {}",age );
-    println!("Sum is {}",sum );
+    println!("school Name is {}",school_string);
+    println!("School rating on 5 is :{}",rating_float );
+    println!("School is growing :{}",is_growing_boolean );
+    println!("Number of Departments :{:?}",department_integer );
 }
